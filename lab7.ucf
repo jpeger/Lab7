@@ -1,0 +1,28 @@
+NET "clk" LOC = R10;		//40MHz clk
+NET "rst_n" LOC = T1;	//dip switch
+
+NET "plus" LOC = N3;	//button
+NET "button" LOC = P4;	//button
+
+NET "ftseg[0]" LOC = U5;		//ftseg
+NET "ftseg[1]" LOC = T7;
+NET "ftseg[14]" LOC = P6;
+NET "ftseg[13]" LOC = N4;
+NET "ftseg[12]" LOC = V5;
+NET "ftseg[11]" LOC = T5;
+NET "ftseg[10]" LOC = U7;
+NET "ftseg[9]" LOC = R3;
+NET "ftseg[8]" LOC = N5;
+NET "ftseg[7]" LOC = R5;
+NET "ftseg[6]" LOC = T3;
+NET "ftseg[5]" LOC = T4;
+NET "ftseg[4]" LOC = V4;
+NET "ftseg[3]" LOC = V7;
+NET "ftseg[2]" LOC = R7;
+
+NET "ftsd_ctl[3]" LOC = T6;
+NET "ftsd_ctl[2]" LOC = V6;
+NET "ftsd_ctl[1]" LOC = U8;
+NET "ftsd_ctl[0]" LOC = V8;
+
+NET "ampm" 		LOC = P2;
